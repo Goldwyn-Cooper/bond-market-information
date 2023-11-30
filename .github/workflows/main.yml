@@ -10,7 +10,7 @@ on:
 env:
   # AWS_REGION: region
   ECR_REGISTRY: ${{ secrets.ECR_REGISTRY }}
-  ECR_REPOSITORY: ${{ GITHUB_REPOSITORY#*/ }}
+  ECR_REPOSITORY: ${{ GITHUB_REPOSITORY#$GITHUB_REPOSITORY_OWNER/ }}
   IMAGE_TAG: latest
 jobs:
   test:
