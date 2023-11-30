@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: echo
         run: |
-          echo ${{ env.ECR_REGISTRY }}
+          echo ${{ env.ECR_REPOSITORY }}
   # deploy:
   #   name: Deploy
   #   runs-on: ubuntu-latest
