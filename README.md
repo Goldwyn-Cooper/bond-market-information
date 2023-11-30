@@ -3,3 +3,4 @@
 * [Github action: [error]Process completed with exit code 1. Trying to push docker image into ecr repo](https://stackoverflow.com/questions/73711363/github-action-errorprocess-completed-with-exit-code-1-trying-to-push-docker)
 * [GitHub Actions: Deprecating save-state and set-output commands
 ](https://github.blog/changelog/2022-10-11-github-actions-deprecating-save-state-and-set-output-commands/)
+* [It works with the default "x86_64" type](https://github.com/aws/aws-lambda-base-images/issues/26)
